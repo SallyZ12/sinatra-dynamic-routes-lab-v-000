@@ -36,7 +36,7 @@ class App < Sinatra::Base
 
     when "subtract"
     result = number1 - number2
-    "#{result}"
+    "#{result.to_s}"
 
     when "multiply"
     result = number1 * number2
