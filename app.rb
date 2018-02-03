@@ -32,19 +32,19 @@ class App < Sinatra::Base
 
     when "add"
     result = number1 + number2
-    "#{result.to_s}"
+    "#{result}"
 
     when "subtract"
     result = number1 - number2
-    "#{result.to_s}"
+    "#{result}"
 
     when "multiply"
     result = number1 * number2
-      "#{result.to_s}"
+      "#{result}"
 
     when "divide"
       result = number1 / number2
-      "#{result.to_s}"
+      "#{result}"
 
     else "Not One of the 4 Valid Operators in RSpec (only add, subtract, multiply, and divide)"
   end
